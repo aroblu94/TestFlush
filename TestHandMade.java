@@ -17,6 +17,7 @@ public class TestHandMade {
 				for( int i = 0; i < 25; i++ ) {
     				System.out.println("");
 				}
+				System.out.printf("%c[%d;%df", 0x1B, 0, 0);
 			} 
 		}
 	}
